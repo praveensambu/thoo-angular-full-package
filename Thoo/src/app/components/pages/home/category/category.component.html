@@ -1,0 +1,33 @@
+<div class="main-section categories-view1-full"> <span class="light-transparent"></span>
+    <div class="container">
+        <div class="section-header text-center ">
+            <div class="section-heading">
+                <h3 class="text-custom-white">Our <span class="text-custom-blue">Categories</span></h3>
+                <div class="section-description">
+                    <p class="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Categories List -->
+                <div class="categories-1 categories-view1">
+                    <ul class="row">
+                        <!-- Data -->
+                        <li class="col-lg-4 col-md-6 wow fadeInLeft" *ngFor="let item of category;let i = index">
+                            <div class="categories-view1-wrap text-center">
+                                <i [class]="item.icon"></i>
+                                <a routerLink="/shop/cat/{{item.id}}">{{item.title}}</a>
+                                <small>({{item.count}} Products)</small>
+                                <span>{{1+i}}</span>
+                            </div>
+                        </li>
+                        <!-- Data -->
+                    </ul>
+                </div>
+                <!-- Categories List -->
+            </div>
+        </div>
+    </div>
+</div>

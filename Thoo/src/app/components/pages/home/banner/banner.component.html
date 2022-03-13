@@ -1,0 +1,22 @@
+<div class="slider p-relative">
+    <ngx-slick-carousel [config]="settings" class="main-banner arrow-layout-1 ">
+        <!-- Data -->
+        <div ngxSlickItem class="slide-item" *ngFor="let item of bannerpost"> 
+            <img [src]="item.image" [alt]="item.title" class="image-fit" />
+            <div class="transform-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 wow fadeInLeft" data-wow-delay="0.2s">
+                            <div class="slider-content">
+                                <h1 class="text-custom-white" [innerHtml]="item.title"></h1>
+                                <p class="text-custom-white">{{item.text}}</p>
+                                <a routerLink="/shop" class="btn-first btn-small">Find Out More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Data -->
+    </ngx-slick-carousel>
+</div>

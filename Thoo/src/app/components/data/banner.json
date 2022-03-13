@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "image":"assets/images/slider/slider-5.jpg",
+        "title":"We Are Industry <span class='text-custom-blue'>Factory</span> Solution",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+    },
+    {
+        "id":2,
+        "image":"assets/images/slider/slider-2.jpg",
+        "title":"Economy Needs A Healthy <span class='text-custom-blue'>Industry</span>",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+    },
+    {
+        "id":3,
+        "image":"assets/images/slider/slider-4.jpg",
+        "title":"A company involved in service <span class='text-custom-blue'>maintenance</span>",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+    }
+]

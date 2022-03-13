@@ -1,0 +1,25 @@
+<section class="choose-grid section-padding section bg-light-white">
+    <div class="container">
+        <div class="section-header text-center ">
+            <div class="section-heading">
+                <h3 class="text-custom-black">Why <span class="text-custom-blue">Choose Us</span></h3>
+                <div class="section-description">
+                    <p class="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Data -->
+            <div class="col-lg-3 col-md-6 text-center mb-xl-30 wow fadeInRight" *ngFor="let item of whyus | slice:0:4">
+                <div class="choose-wrap">
+                    <div class="choose-icon"> <i [class]="item.icon"></i> </div>
+                    <h4>{{item.title}}</h4>
+                    <p>{{item.text}}...</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+</section>

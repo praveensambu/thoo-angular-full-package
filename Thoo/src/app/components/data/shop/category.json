@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "icon":"fas fa-biohazard",
+        "title":"Mechanical Works"
+    },
+    {
+        "id":2,
+        "icon":"fas fa-broadcast-tower",
+        "title":"Power & Energy"
+    },
+    {
+        "id":3,
+        "icon":"fas fa-chart-bar",
+        "title":"Oil & Gas Industry"
+    },
+    {
+        "id":4,
+        "icon":"fab fa-codepen",
+        "title":"Petroleum Refinery"
+    },
+    {
+        "id":5,
+        "icon":"fas fa-dna",
+        "title":"Chemical Research"
+    },
+    {
+        "id":6,
+        "icon":"fas fa-layer-group",
+        "title":"Automate Manufacture"
+    }
+]

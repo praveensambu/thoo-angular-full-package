@@ -1,0 +1,134 @@
+[
+    {
+        "id":1,
+        "name":"Jason Roy",
+        "image":"assets/images/team/team-1.jpg",
+        "post":"Agent",
+        "shorttext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-pinterest",
+                "title":"Pinterest",
+                "link":"/",
+                "iconClass":"pinterest"
+            },
+            {
+                "icon":"fab fa-vimeo-v",
+                "title":"LinkedIn",
+                "link":"/",
+                "iconClass":"vimeo"
+            },
+            {
+                "icon":"fab fa-instagram",
+                "title":"Facebook",
+                "link":"/",
+                "iconClass":"instagram"
+            },
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "link":"/",
+                "iconClass":"twitter"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name":"Jorj Heaily",
+        "image":"assets/images/team/team-2.jpg",
+        "post":"Builder",
+        "shorttext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-pinterest",
+                "title":"Pinterest",
+                "link":"/",
+                "iconClass":"pinterest"
+            },
+            {
+                "icon":"fab fa-vimeo-v",
+                "title":"LinkedIn",
+                "link":"/",
+                "iconClass":"vimeo"
+            },
+            {
+                "icon":"fab fa-instagram",
+                "title":"Facebook",
+                "link":"/",
+                "iconClass":"instagram"
+            },
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "link":"/",
+                "iconClass":"twitter"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "name":"Mark Smith",
+        "image":"assets/images/team/team-3.jpg",
+        "post":"Engineer",
+        "shorttext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-pinterest",
+                "title":"Pinterest",
+                "link":"/",
+                "iconClass":"pinterest"
+            },
+            {
+                "icon":"fab fa-vimeo-v",
+                "title":"LinkedIn",
+                "link":"/",
+                "iconClass":"vimeo"
+            },
+            {
+                "icon":"fab fa-instagram",
+                "title":"Facebook",
+                "link":"/",
+                "iconClass":"instagram"
+            },
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "link":"/",
+                "iconClass":"twitter"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "name":"Malkova",
+        "image":"assets/images/team/team-1.jpg",
+        "post":"Contractor",
+        "shorttext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-pinterest",
+                "title":"Pinterest",
+                "link":"/",
+                "iconClass":"pinterest"
+            },
+            {
+                "icon":"fab fa-vimeo-v",
+                "title":"LinkedIn",
+                "link":"/",
+                "iconClass":"vimeo"
+            },
+            {
+                "icon":"fab fa-instagram",
+                "title":"Facebook",
+                "link":"/",
+                "iconClass":"instagram"
+            },
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "link":"/",
+                "iconClass":"twitter"
+            }
+        ]
+    }
+]

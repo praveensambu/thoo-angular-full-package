@@ -1,0 +1,229 @@
+/* You can add global styles to this file, and also import other style files */
+button:focus, button:hover, ngb-rating:focus {
+	outline: none!important;
+	box-shadow: none!important;
+	text-decoration: none!important;
+}
+.main-banner.slick-slider .slick-track, .main-banner.slick-slider .slick-list {
+	display: flex;
+}
+.section-padding.section {
+	padding-bottom: 50px;
+}
+.pagination_layout{
+	margin-top: -30px;
+}
+.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a::after{
+	content: ', ';
+}
+.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a:last-child::after{
+	display: none;
+}
+.comment-box .comments li article .comment-avatar{
+	width: 80px;
+}
+.sidebar_wrap .sidebar .sidebar_widgets .popular_post li:last-child{
+	margin-bottom: 0;
+}
+.sidebar_wrap .sidebar .sidebar_widgets .tags{
+	margin-bottom: -10px;
+}
+.our_articles .post .post-wrapper .post-img{
+	height: 250px;
+}
+.our_articles .post .post-wrapper .post-img img {
+	height: 100%;
+	object-fit: cover;
+}
+.listing-details-inner .listing-meta-sec .listing-testimonial .tesimonial-item .testimonial-author .author-img{
+	width: 86px;
+	height: 86px;
+}
+.htmltext p:last-child{
+	margin-bottom: 0;
+}
+.Product-grid .Product-grid-wrapper.Product-grid .image-sec img,
+.car-grid .car-grid-wrapper.car-grid .image-sec img,
+.gallery .gallery-content img{
+	object-fit: cover;
+}
+.menu-item-has-children .submenu .menu-item-has-children>.submenu{
+	top: -2px;
+}
+.Product-grid .Product-grid-wrapper.Product-grid .image-sec>a,
+.Product-grid .Product-grid-wrapper.Product-grid .image-sec{
+	height: 290px; 
+	display:  block; 
+}
+.Product-grid .Product-grid-wrapper .Product-grid-caption h5 span{
+	margin: 5px 3px 0;
+    display: inline-block;
+}
+.Product-grid .Product-grid-wrapper .Product-grid-caption h5 span + span{
+	color: #ccc;
+	text-decoration: line-through;
+}
+.categories-view1-wrap{
+	padding-left: 0;
+	padding-right: 0;
+}
+.categories-view1-full{
+	padding-bottom: 50px;
+}
+@media (max-width: 992px){
+	.menu-item-has-children .submenu .menu-item-has-children>a>.arrow:after{
+		transform: none;
+		right: 15px;
+   }
+   .menu-item-has-children .submenu{
+	   border-color: #ff0000;
+   }
+   .header .navigation-wrapper nav>.main-navigation .main-menu>ul>.menu-item>a:after{
+	  background-color: #ff0000;
+   }
+	.desk-logo{
+		display:none;
+   }
+   .about-us .our-content{
+	   width: 100%;
+   }
+}
+/* Coming Soon */
+.coming-soon .coming-soon-text .counter .countdown {
+	display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  margin: 0;
+	  width: 100%;
+  }
+  .coming-soon .coming-soon-text .counter .countdown .measurements {
+	text-align: center;
+	position: relative;
+	width: 100%;
+	max-width: 125px;
+	height: 125px;
+	display: block;
+	background-color: #ffb200;
+	color: #fff;
+	border-radius: 0px;
+	margin: 0 15px 30px;
+	flex: none!important;
+	padding: 20px 0;
+  }
+  .coming-soon .coming-soon-text .counter .countdown .measurements>.measurements-number {
+  font-size: 50px;
+	line-height: 1;
+	font-weight: 600;
+	margin: 0;
+  }
+  .coming-soon .coming-soon-text .counter .countdown .measurements .measurements-text{
+	color: #fff;
+	margin: 0;
+  }
+  .coming-soon .coming-soon-text .counter .countdown .measurements .divider{
+	display: none;
+  }
+  /* Pagination */
+  pagination-template .ngx-pagination {
+	  margin-top: 0px;
+	  justify-content: center;
+	  margin-bottom: 0;
+	  display: flex;
+	  padding-left: 0;
+	  list-style: none;
+	  border-radius: .25rem;
+  }
+  pagination-template .ngx-pagination li {
+	  margin: 0;
+	  position: relative;
+  }
+  pagination-template .ngx-pagination li.pagination-next,
+  pagination-template .ngx-pagination li.pagination-previous {
+	  padding: 0;
+	  display: block;
+  }
+  pagination-template .ngx-pagination li.pagination-next span,
+  pagination-template .ngx-pagination li.pagination-previous span,
+  pagination-template .ngx-pagination li a {
+	  background-color: #fff;
+	  font-weight: 400;
+	  padding: 8px 20px!important;
+	  margin: 0;
+	  position: relative;
+	  margin-left: 0;
+	  display: block;
+	  font-size: 14px;
+	  line-height: 1.5;
+	  border: 2px solid #eee;
+	  color: #020202;
+	  border-radius: 0;
+  }
+  pagination-template .ngx-pagination li.current {
+	  border-radius: 0px;
+	  color: #fff;
+	  border: 1px solid #ffb200;
+	  background-color: #ffb200;
+	  font-size: 14px;
+	  font-weight: 400;
+	  padding: 8px 20px!important;
+	  margin: 0;
+	  position: relative;
+	  display: block;
+	  line-height: 1.5;
+  }
+  pagination-template .ngx-pagination li.pagination-next::after,
+  pagination-template .ngx-pagination li.pagination-next a:after,
+  pagination-template .ngx-pagination li.pagination-previous a::before,
+  pagination-template .ngx-pagination li.pagination-previous::before {
+	  display: none!important;
+  }
+  .ngx-pagination a:hover, .ngx-pagination button:hover {
+	background: #000!important;
+    border-color: #000;
+	color: #fff!important;
+}
+  /* Range slider */
+.ngx-slider .ngx-slider-bar-wrapper{
+	padding-top: 20px!important;
+  }
+  .ngx-slider .ngx-slider-bubble{
+	padding: 1px 5px!important;
+	color: #ffffff!important;
+	font-size: 12px!important;
+	background-color: #ffb200;
+	border-radius: 4px;
+	font-weight: 600;
+  }
+  .ngx-slider .ngx-slider-bubble::after{
+	position: absolute;
+	display: block;
+	content: "";
+	bottom: -6px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -3px;
+	overflow: hidden;
+	border: 3px solid transparent;
+	border-top-color: #ffb200;
+  }
+  .ngx-slider .ngx-slider-bar{
+	background: #eee!important;
+	height: 4px!important;
+	border-radius: 4px!important;
+  }
+  .ngx-slider .ngx-slider-selection{
+	background: #ffb200!important;
+	border-radius: 0px!important;
+  }
+  .ngx-slider .ngx-slider-pointer:after {
+	display: none!important;
+  }
+  .ngx-slider .ngx-slider-pointer{
+	width: 15px!important;
+	  height: 15px!important;
+	  top: -2px!important;
+	  border: 0px solid #ffb200;
+	  background-color: #ffb200!important;
+	  box-shadow: 0 1px 3px rgb(0 0 255 / 30%);
+  }

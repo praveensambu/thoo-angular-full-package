@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "icon":"fas fa-layer-group",
+        "title":"Material Engineering",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"
+    },
+    {
+        "id":2,
+        "icon":"fas fa-chart-bar",
+        "title":"Petroleam Engineering",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"
+    },
+    {
+        "id":3,
+        "icon":"fas fa-database",
+        "title":"Agricultural Processing",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"
+    },
+    {
+        "id":4,
+        "icon":"fas fa-cogs",
+        "title":"Service And Processing",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"
+    }
+]

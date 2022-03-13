@@ -1,0 +1,26 @@
+<section class="section-padding section" id="services">
+    <div class="container">
+        <div class="section-header text-center">
+            <div class="section-heading">
+                <h3 class="text-custom-black">Our <span class="text-custom-blue">Service</span></h3>
+                <div class="section-description">
+                    <p class="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Data -->
+            <div class="col-lg-3 col-sm-6 wow fadeInRight" data-wow-delay="0.3s" *ngFor="let item of services | slice:0:4">
+                <a href="#" class="services-small-item">
+                    <div class="icon"> <i [class]="item.icon"></i> </div>
+                    <h5 class="services-title">{{item.title}}</h5>
+                    <p>{{item.text}}</p>
+                    <div class="button"> <i class="fa fa-chevron-right"></i> </div>
+                </a>
+                <div class="item-bg"></div>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+</section>

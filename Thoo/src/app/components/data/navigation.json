@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "linkText": "Home",
+        "link": "/"
+    },
+    {
+        "id": 2,
+        "linkText": "Shop",
+        "child": true,
+        "submenu": [
+            {
+                "id": 2.1,
+                "linkText": "Shop Grid",
+                "child": true,
+                "submenu": [
+                    {
+                        "id": 2.11,
+                        "link": "/shop-grid",
+                        "linkText": "Full Width"
+                    },
+                    {
+                        "id": 2.12,
+                        "link": "/shop-grid-left",
+                        "linkText": "Left Sidebar"
+                    },
+                    {
+                        "id": 2.13,
+                        "link": "/shop-grid-right",
+                        "linkText": "Right Sidebar"
+                    }
+                ]
+            },
+            {
+                "id": 2.2,
+                "linkText": "Shop Details",
+                "link": "/shop-details/1"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "linkText": "Blog",
+        "child": true,
+        "submenu": [
+            {
+                "id": 3.1,
+                "linkText": "Blog Grid",
+                "child": true,
+                "submenu": [
+                    {
+                        "id": 3.11,
+                        "link": "/blog-grid",
+                        "linkText": "Full Width"
+                    },
+                    {
+                        "id": 3.12,
+                        "link": "/blog-grid-left",
+                        "linkText": "Left Sidebar"
+                    },
+                    {
+                        "id": 3.13,
+                        "link": "/blog-grid-right",
+                        "linkText": "Right Sidebar"
+                    }
+                ]
+            },
+            {
+                "id": 3.2,
+                "linkText": "Blog Details",
+                "child": true,
+                "submenu": [
+                    {
+                        "id": 3.21,
+                        "link": "/blog-details/1",
+                        "linkText": "Full Width"
+                    },
+                    {
+                        "id": 3.22,
+                        "link": "/blog-details-left/1",
+                        "linkText": "Left Sidebar"
+                    },
+                    {
+                        "id": 3.23,
+                        "link": "/blog-details-right/1",
+                        "linkText": "Right Sidebar"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "link": "/about",
+        "linkText": "About"
+    },
+    {
+        "id": 5,
+        "linkText": "Pages",
+        "child": true,
+        "submenu": [
+            {
+                "id": 5.1,
+                "link": "/booking",
+                "linkText": "Booking"
+            },
+            {
+                "id": 5.2,
+                "link": "/faqs",
+                "linkText": "FAQ's"
+            },
+            {
+                "id": 5.3,
+                "link": "/gallery",
+                "linkText": "Gallery"
+            },
+            {
+                "id": 5.4,
+                "link": "/error-page",
+                "linkText": "Error 404"
+            },
+            {
+                "id": 5.5,
+                "link": "/coming-soon",
+                "linkText": "Coming Soon"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "link": "/contact",
+        "linkText": "Contact"
+    }
+]

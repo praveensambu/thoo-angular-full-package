@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "icon":"fas fa-check-square",
+        "title":"Mechanical Works",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+    },
+    {
+        "id":2,
+        "icon":"fas fa-bed",
+        "title":"Power & Energy",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+    },
+    {
+        "id":3,
+        "icon":"fas fa-chart-bar",
+        "title":"Petroleum Refinery",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+    },
+    {
+        "id":4,
+        "icon":"fas fa-shopping-cart",
+        "title":"Oil & Gas Industry",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+    }
+]
